@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'ruby', '2.0.0'
+# gem 'ruby', '2.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
@@ -11,6 +11,8 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 # Use SCSS for stylesheets
