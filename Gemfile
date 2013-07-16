@@ -33,6 +33,9 @@ gem 'devise'
 # old mass-assignment solution
 gem 'protected_attributes'
 
+#graphics
+gem 'bootstrap-sass'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
